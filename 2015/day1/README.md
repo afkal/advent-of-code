@@ -5,3 +5,4 @@
 ### Implementations
   * Nim: [day1.nim](day1.nim)
   * Zig: [day1.zig](day1.zig)
+  * Rust: [day1.rs](day1.rs)
