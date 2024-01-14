@@ -8,5 +8,6 @@ Currently experiments include following languages:
 
   * [Nim](https://nim-lang.org/)
   * [Zig](https://ziglang.org/)
+  * [Rust](https://www.rust-lang.org/)
 
 Note: Not all puzzles are solved with all languages.
