@@ -3,12 +3,12 @@
 
 const input_file = "input.txt"
 
-### Part 1
-
 # Read input
 import std/strutils
 
 const input = staticRead(input_file).strip()
+
+### Part 1
 
 # Count the floors
 var floor = 0
