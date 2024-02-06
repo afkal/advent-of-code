@@ -22,9 +22,7 @@ pub fn part1() void {
 pub fn part2() void {
 
     var floor: i32 = 0;
-    var position: u32 = 0;
-    for (input) |char| {
-        position += 1;
+    for (input, 1..) |char, position| {
         if (char == '(') {
             floor += 1;
         }
