@@ -66,7 +66,15 @@ pub fn main() {
   io.debug(basement)
 }
 
-// Test the functions
+// Test functions
+// Note that running tests in the src directory requires hacking the gleaunit.gleam file
+// to look for tests in the src directory instead of the test directory
+// find_files(matching: "**/*.{erl,gleam}", in: "test")
+// should be changed to
+// find_files(matching: "**/*.{erl,gleam}", in: "src")
+// in the do_main() function
+// This is because the tests are in the same file as the main function
+// and not in a separate test file
 pub fn floor_basement1_test() {
   let instructions = ")" |> string.to_graphemes()
   find_floor(instructions, 0)
