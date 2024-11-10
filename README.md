@@ -4,13 +4,16 @@
 
 Main motivation has been to 1) have fun with the puzzles, as well as 2) experiment different programming languages.
 
-Currently experiments include following languages:
+Current experiments include following languages:
 
   * [Nim](https://nim-lang.org/)
   * [Zig](https://ziglang.org/)
   * [Rust](https://www.rust-lang.org/)
+  * [Go](https://go.dev/)
+  * [Gleam](https://gleam.run/)
+  * [Odin](https://odin-lang.org/)
 
-Note: Not all puzzles are solved with all languages.
+Note: Not all puzzles are solved with all languages
 
 Hints and links:
 
