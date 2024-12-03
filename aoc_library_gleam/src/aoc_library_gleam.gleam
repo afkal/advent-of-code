@@ -8,6 +8,13 @@ import gleam/io
 import gleam/list
 import simplifile
 
+pub fn drop_first_item_from_list(list: List(a)) -> List(a) {
+  case list {
+    [] -> []
+    [_, ..xs] -> xs
+  }
+}
+
 // Read the input file for the AoC project 
 pub fn read_file(filename: String) -> String {
   //let file_exists = simplifile.is_file(filename)
